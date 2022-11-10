@@ -1,1 +1,11 @@
 # My Projects
+- Spreadsheet
+- SQL database
+- R Programming
+- Data Transformation
+- Data Visualization
+- Statistics
+- Intro to classical Maachine Learning
+- Intro to python
+- Esseential Python for Data Analyst
+- Dashboard
