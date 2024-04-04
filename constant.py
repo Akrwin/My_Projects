@@ -1,5 +1,4 @@
 import pandas as pd
-import graphviz as graphviz
 
 info = {'name':'Akkarawin Saiprapakorn',
         'brief':'..info something',
