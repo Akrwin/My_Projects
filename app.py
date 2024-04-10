@@ -55,6 +55,7 @@ st.header('Certificates 🔥')
 def certii(i):
     st.markdown('<h5>'+certi[i]['name']+'</h5>',unsafe_allow_html=True)
     st.markdown('Offered by ***'+certi[i]['offer_by']+'***.',unsafe_allow_html=True)
-    st.download_button(label=certi[i]['name'])
+    st.button(certi[i]['name'])
+    
 certii(1)
 certii(2)
