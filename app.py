@@ -12,7 +12,7 @@ st.write(info['brief'])
 # Sidebar
 with st.sidebar:
     st.title("Akkarawin Saiprapakorn")
-    components.html('<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="ak4rawin" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://th.linkedin.com/in/ak4rawin?trk=profile-badge">Akkarawin Saiprapakorn</a></div>', height = 310 )
+    components.html(info['linkedin'], height = 310 )
 
 # Skill 
 st.subheader('Technical Skills')
