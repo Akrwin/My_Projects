@@ -39,4 +39,9 @@ st.caption(educations['Year'])
 
 # Experience
 st.title('Work Experience 🗂️')
-st.header('QOL Enterprises')
+st.markdown('<h5>'+work_exp['corp'][0]+'</h5>',unsafe_allow_html=True)
+st.caption(work_exp['year'][0])
+st.caption(work_exp['des'][0])
+st.markdown('<h5>'+work_exp['corp'][1]+'</h5>',unsafe_allow_html=True)
+st.caption(work_exp['year'][1])
+st.caption(work_exp['des'][1])
