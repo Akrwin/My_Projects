@@ -40,12 +40,10 @@ st.caption(educations['Year'])
 # Experience
 st.title('Work Experience 🗂️')
 
-st.markdown('<h5>'+work_exp['corp'][0]+'</h5>',unsafe_allow_html=True)
-# st.caption(work_exp['year'][0])
-# st.markdown('<ul>'+'HUHHHHHH'+'</ul>',unsafe_allow_html=True)
+for i in len(work_exp['corp']) :
+    st.markdown('<h5>'+work_exp['corp'][i]+'</h5>',unsafe_allow_html=True)
+    st.caption(work_exp['year'][i])
+    achievement_list = ''.join(['<li>'+item+'</li>' for item in work_exp['des'][0]])
+    st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
 
-# st.markdown('<h5>'+work_exp['corp'][1]+'</h5>',unsafe_allow_html=True)
-# st.caption(work_exp['year'][1])
-# st.write(work_exp['des'][1])
-achievement_list = ''.join(['<li>'+item+'</li>' for item in work_exp['des'][0]])
-st.markdown('<ul>'+achievement_list+'</ul>',unsafe_allow_html=True)
+
