@@ -4,7 +4,7 @@ from constant import *
 
 st.set_page_config(page_title='Akkarawin portfolio' ,layout="wide",page_icon='👨‍🔬')
 
-st.header('Akkarawin Saiprapakorn👏')
+st.title('Akkarawin Saiprapakorn👏')
 
 st.write('This is my portfolio')
 st.write(info['brief'])
@@ -39,3 +39,4 @@ st.caption(educations['Year'])
 
 # Experience
 st.title('Experience')
+
