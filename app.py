@@ -11,7 +11,8 @@ st.write(info['brief'])
 
 # Sidebar
 with st.sidebar:
-    components.html(info['linkedin'])
+    st.title(info['name'])
+    components.html(info['linkedin'],height = 310)
 
 # Skill 
 st.subheader('Technical Skills')
