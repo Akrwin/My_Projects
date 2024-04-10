@@ -59,5 +59,4 @@ def certii(i):
         st.button('Link Originals Certificates('+certi[i]['caption']+')')
 
 certii(0)
-
 certii(1)
