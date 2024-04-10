@@ -53,4 +53,4 @@ work(1)
 st.header('Certificates 🔥')
 
 st.markdown('<h5>'+certi[1]['name']+'</h5>',unsafe_allow_html=True)
-st.markdown('*offer by *:***'+certi[1]['offer_by']+'***.',unsafe_allow_html=True)
+st.markdown('*offer by *: ***'+certi[1]['offer_by']+'***.',unsafe_allow_html=True)
