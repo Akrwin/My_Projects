@@ -33,7 +33,7 @@ with col3:
 
 # Education
 st.title('Education 📖')
-st.markdown('<h5>'+educations['Institute']+'</h5>',unsafe_allow_html=True)
+st.markdown('<h3>'+educations['Institute']+'</h3>',unsafe_allow_html=True)
 st.caption(educations['Qualification']+educations['Major'])
 st.caption(educations['Year'])
 
