@@ -51,3 +51,4 @@ work(1)
 
 # Certificates
 st.header('Certificates 🔥')
+st.markdown('<h5>'+certi[1]['name']+'</h5>',unsafe_allow_html=True)
