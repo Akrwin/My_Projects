@@ -27,9 +27,9 @@ with col3:
 
 # Education
 st.subheader('Education📖')
-st.markdown('<h5>'+educations['Institute']+'</h5>',unsafe_allow_html=True)
-st.caption(educations['Qualification']+educations['Major'])
-st.caption(educations['Year'])
+st.markdown('    <h5>'+educations['Institute']+'</h5>',unsafe_allow_html=True)
+st.caption('    '+educations['Qualification']+educations['Major'])
+st.caption('    '+educations['Year'])
 
 # Experience
 st.subheader('Experience')
