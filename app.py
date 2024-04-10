@@ -55,10 +55,9 @@ st.header('Certificates 🔥')
 def certii(i):
     st.markdown('<h5>'+certi[i]['name']+'</h5>',unsafe_allow_html=True)
     st.markdown('Offered by ***'+certi[i]['offer_by']+'***.',unsafe_allow_html=True)
+    with st.expander('detailed description'):
+        st.button('Link Originals Certificates('+certi[i]['caption']+')')
 
 certii(0)
-with st.expander('detailed description'):
-    st.button('Link Originals Certificates')
+
 certii(1)
-with st.expander('detailed description'):
-    st.button('Link Originals this Certificates')
