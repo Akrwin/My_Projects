@@ -52,9 +52,9 @@ work(1)
 # Certificates
 st.header('Certificates 🔥')
 
-def certi(i):
+def certii(i):
     st.markdown('<h5>'+certi[i]['name']+'</h5>',unsafe_allow_html=True)
     st.markdown('offer by : ***'+certi[i]['offer_by']+'***.',unsafe_allow_html=True)
 
-certi(1)
-certi(2)
+certii(1)
+certii(2)
