@@ -20,7 +20,6 @@ educations = {
 work_exp = {
     'corp':['QOL Enterprises','LEARN Corporation (Ignite by Ondemand)'],
     'year':['May 2022 - Feb 2023','Mar 2023 - Present'],
-    'des':['''Analyze daily/weekly/monthly reports
-summarize the cost and profit of the sales
-Create a dashboard and present solution to increase profits for the company.''' , '''just wait''']
+    'des':[['Analyze daily/weekly/monthly reports','summarize the cost and profit of the sales','Create a dashboard and present solution to increase profits for the company.']
+           ,[ '''just wait''']]
 }
