@@ -6,7 +6,7 @@ st.set_page_config(page_title='Akkarawin portfolio' ,layout="wide",page_icon='�
 
 st.title('Akkarawin Saiprapakorn 👦')
 
-st.write('This is my portfolio')
+st.header('Summary')
 st.write(info['brief'])
 
 # Sidebar
@@ -32,13 +32,13 @@ with col3:
     st.button(info['skills'][5])
 
 # Education
-st.title('Education 📖')
-st.markdown('<h3>'+educations['Institute']+'</h3>',unsafe_allow_html=True)
+st.header('Education 📖')
+st.markdown('<h4>'+educations['Institute']+'</h4>',unsafe_allow_html=True)
 st.caption(educations['Year'])
 st.write(educations['Qualification']+educations['Major'])
 
 # Experience
-st.title('Work Experience 🗂️')
+st.header('Work Experience 🗂️')
 
 def work(i):
     st.markdown('<h5>'+work_exp['corp'][i]+'</h5>',unsafe_allow_html=True)
@@ -50,4 +50,4 @@ work(0)
 work(1)
 
 # Certificates
-st.title('Certificates 🔥')
+st.header('Certificates 🔥')
