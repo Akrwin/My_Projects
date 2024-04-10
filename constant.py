@@ -5,7 +5,9 @@ info = {'name':'Akkarawin Saiprapakorn',
         'mobile':'090-768-3100',
         'email':'ak4rawin@gmail.com',
         'github':'https://github.com/Akrwin',
-        'skills':['R','Python','SQL','Snowflake','PowerBI','Excel/GGSheet']}
+        'skills':['Tableau','SQL','Snowflake','Streamlit','Data Analysis','Python']}
 
-df_col = ['Institute','Qualification ','Major','Year']
-data = [['Kasetsart University','Bachelor of Science','Statistic','2018-2022']]
+educations = {'Institute':'Kasetsart University',
+              'Qualification':'Bachelor of Science',
+              'Major':'Statistic',
+              'Year':'2018-2022'}
