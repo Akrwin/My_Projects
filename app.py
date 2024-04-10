@@ -61,4 +61,4 @@ with st.expander('detailed description'):
     st.button('Link Originals Certificates')
 certii(1)
 with st.expander('detailed description'):
-    st.button('Link Originals Certificates')
+    st.button('Link Originals this Certificates')
