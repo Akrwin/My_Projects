@@ -49,4 +49,5 @@ def work(i):
 work(0)
 work(1)
 
-
+# Certificates
+st.title('Certificates 🔥')
