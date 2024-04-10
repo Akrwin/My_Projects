@@ -5,4 +5,4 @@ info = {'name':'Akkarawin Saiprapakorn',
         'mobile':'090-768-3100',
         'email':'ak4rawin@gmail.com',
         'github':'https://github.com/Akrwin',
-        'skills':['Tableau','SQL','Snowflake','Streamlit','Data Analysis']}
+        'skills':['Tableau','SQL','Snowflake','Streamlit','Data Analysis','Python']}
