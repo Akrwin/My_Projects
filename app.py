@@ -8,6 +8,11 @@ st.header('Akkarawin Saiprapakorn👏')
 st.write('This is my portfolio')
 st.write(info['brief'])
 
+# Sidebar
+with st.sidebar:
+    st.title("Akkarawin Saiprapakorn")
+    components.html('<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="harshitwadhwani" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ak4rawin/?trk=opento_sprofile_topcard"></a></div>', height = 310 )
+
 # Skill 
 st.subheader('Technical Skills')
 
