@@ -11,8 +11,8 @@ st.write(info['brief'])
 
 # Sidebar
 with st.sidebar:
-    st.title(info['name'])
-    components.html(info['linkedin'],height = 310)
+    st.title("Akkarawin Saiprapakorn")
+    components.html(info['linkedin'])
 
 # Skill 
 st.subheader('Technical Skills')
@@ -39,3 +39,12 @@ st.caption(educations['Year'])
 
 # Experience
 st.subheader('Experience')
+
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
