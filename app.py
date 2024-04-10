@@ -4,14 +4,14 @@ from constant import *
 
 st.set_page_config(page_title='Akkarawin portfolio' ,layout="wide",page_icon='🌲')
 
-st.title('Akkarawin Saiprapakorn 👏')
+st.title('Akkarawin Saiprapakorn 👦')
 
 st.write('This is my portfolio')
 st.write(info['brief'])
 
 # Sidebar
 with st.sidebar:
-    st.title("Akkarawin Saiprapakorn 👦")
+    st.title("Akkarawin Saiprapakorn")
     components.html(info['linkedin'],height=310)
 
 # Skill 
