@@ -38,5 +38,5 @@ st.caption(educations['Qualification']+educations['Major'])
 st.caption(educations['Year'])
 
 # Experience
-st.title('Experience 🗂️')
-
+st.title('Work Experience 🗂️')
+st.header('QOL Enterprises')
