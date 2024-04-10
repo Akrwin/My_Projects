@@ -15,7 +15,7 @@ with st.sidebar:
     components.html(info['linkedin'],height=310)
 
 # Skill 
-st.title('Technical Skills 🖥️')
+st.header('Technical Skills 🖥️')
 
 col1, col2, col3 = st.columns(3)
 
@@ -33,7 +33,7 @@ with col3:
 
 # Education
 st.header('Education 📖')
-st.markdown('<h4>'+educations['Institute']+'</h4>',unsafe_allow_html=True)
+st.markdown('<h5>'+educations['Institute']+'</h5>',unsafe_allow_html=True)
 st.caption(educations['Year'])
 st.write(educations['Qualification']+educations['Major'])
 
