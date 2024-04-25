@@ -1,6 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components 
 from constant import *
+import webbrowser
+from bokeh.models.widgets import Div
+
 
 st.set_page_config(page_title='Akkarawin portfolio' ,layout="wide",page_icon='🌲')
 
@@ -56,7 +59,12 @@ def certii(i):
     st.markdown('<h5>'+certi[i]['name']+'</h5>',unsafe_allow_html=True)
     st.markdown('Offered by ***'+certi[i]['offer_by']+'***.',unsafe_allow_html=True)
     with st.expander('detailed description'):
-        st.button('Link Originals Certificates('+certi[i]['caption']+')')
+        if st.button('Link Originals Certificates('+certi[i]['caption']+')'):
+            js = "window.open('https://github.com/Akrwin/My_Projects/blob/main/app.py')"
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
+        
 
 certii(0)
 certii(1)
