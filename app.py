@@ -59,10 +59,11 @@ def certii(i):
     st.markdown('Offered by ***'+certi[i]['offer_by']+'***.',unsafe_allow_html=True)
     with st.expander('detailed description'):
         if st.button('Link Originals Certificates('+certi[i]['caption']+')'):
-            js = "window.open('https://github.com/Akrwin/My_Projects/blob/main/app.py')"
+            js = f"window.open({certi[i]['credential']})"
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
             st.bokeh_chart(div)
         
 certii(0)
 certii(1)
+
