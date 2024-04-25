@@ -25,6 +25,7 @@ certi = {0:{'name':'Certified Professional Data Analyst',
             'caption':'Professional Data Analyst',
             'width':600,
             'credential':'https://badgr.com/public/assertions/2il7laqXQl2RZ16l-pYmQg?identity__email=ak4rawinss@gmail.com'},
+            
          1:{'name':'Python Programming Foundations to Mastery',
             'offer_by':'Skooldio',
             'years':2024,
@@ -32,3 +33,17 @@ certi = {0:{'name':'Certified Professional Data Analyst',
             'caption':'Python Programming',
             'width':600,
             'credential':'https://www.skooldio.com/certificate/a849958c-2787-4fdd-b0cc-62192e1b4825'}}
+proj_h = {
+    0:{
+        'name':'EDA with SQL',
+        'descript':'Clean / transform data to ready to analysis'
+    },
+    1:{
+        'name':'Data Analyst with python',
+        'descript':'use python for analysis'
+    },
+    2:{
+        'name':'ETL for data engineer',
+        'descript':'use SQL and python for ETL data for data engineer in future'
+    }
+}
