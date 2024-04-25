@@ -1,11 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components 
 from constant import *
-import webbrowser
-from PIL import Image
-from streamlit_timeline import timeline
-import pandas as pd
 from bokeh.models.widgets import Div
+
 
 st.set_page_config(page_title='Akkarawin portfolio' ,layout="wide",page_icon='🌲')
 
@@ -67,6 +64,5 @@ def certii(i):
             div = Div(text=html)
             st.bokeh_chart(div)
         
-
 certii(0)
 certii(1)
